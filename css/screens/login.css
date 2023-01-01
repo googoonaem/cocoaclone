@@ -33,7 +33,7 @@
 
 #login-form input:not([type="submit"]) {
     transition: border-color .3s ease-in-out;
-    border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 1px solid var(--lightgray);
 }
 
 #login-form input:focus {
@@ -41,7 +41,7 @@
 }
 
 #login-form input::placeholder {
-    color: rgba(0, 0, 0, 0.2);
+    color: var(--lightgray);
 }
 
 #login-form .btn {
@@ -65,5 +65,5 @@
 }
 
 #login-form a:hover {
-    color: rgba(0, 0, 0, 0.8);
+    color: var(--darkgray);
 }
