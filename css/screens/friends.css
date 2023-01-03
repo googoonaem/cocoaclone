@@ -25,3 +25,28 @@
     justify-content: space-between;
     color: var(--darkgray);
 }
+
+@keyframes hipeSplashScreen {
+    from {
+        opacity: 100%;
+    } 
+    to {
+        opacity: 0;
+        visibility: hidden;
+    }
+}
+
+#splash-screen {
+    background-color: var(--darkblue);
+    color: white;
+    position: absolute;
+    width: 100vw;
+    height: 100vh;
+    top: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 120px;
+    animation: hipeSplashScreen 0.3s ease-in-out forwards;
+    animation-delay: 2s;
+}
